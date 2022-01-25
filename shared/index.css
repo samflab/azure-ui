@@ -1,0 +1,128 @@
+/********************* ROOT ELEMENTS ************************/
+:root {
+  --main-bg-color: #e8f2fc;
+  --primary-color: #253951;
+  --secondary-color: #f6d000fc;
+}
+
+/***********************NAVBAR ********************************/
+nav {
+  align-items: center;
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  border-bottom: 1px solid rgba(37, 57, 81, 0.15);
+  width: 100%;
+}
+
+.nav-title {
+  color: var(--primary-color);
+  cursor: pointer;
+  display: flex;
+  margin-left: 2rem;
+}
+
+.logo {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
+}
+.company-name {
+  padding-top: 0.3rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav-menu {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.nav-menu li {
+  display: inline-block;
+  font-family: "Noto Sans", sans-serif;
+  margin-right: 2rem;
+}
+
+.nav-docs {
+  font-size: 0.875em;
+  font-weight: 500;
+  line-height: calc(5.625rem - 12px);
+  padding: 0rem 1rem 0rem 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nav-docs:hover {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .company-name {
+    display: none;
+  }
+}
+
+/********************** HERO CONTENT **************************/
+.hero-container {
+  height: 60vh;
+  background-color: var(--main-bg-color);
+  color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+.hero-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+.hero-content {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  padding: 10rem 2rem 5rem 2rem;
+}
+
+.hero-btn {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  transition: 0.3s;
+}
+.fa-arrow-right {
+  margin-left: 0.5rem;
+}
+.hero-btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.hero-img {
+  padding: 1rem 2rem;
+  left: 412px;
+  top: 236px;
+  height: 80%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-container {
+    display: block;
+  }
+  .hero-img-container {
+    background-color: var(--main-bg-color);
+  }
+  .hero-img {
+    margin-left: 0rem;
+  }
+}

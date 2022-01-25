@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #165185;
+}
+.circle {
+  padding: 0.1rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+}
+.avatar-sm {
+  height: 2rem;
+  width: 2rem;
+}
+.avatar-md {
+  height: 3rem;
+  width: 3rem;
+}
+
+.avatar-lg {
+  height: 5rem;
+  width: 5rem;
+}
+
+.rounded {
+  border: 2px solid var(--primary-color);
+  border-radius: 15px;
+  padding: 0.1rem;
+}
+
+.avatar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}

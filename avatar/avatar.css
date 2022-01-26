@@ -5,6 +5,7 @@
   padding: 0.1rem;
   border-radius: 50%;
   border: 2px solid var(--primary-color);
+  object-fit:cover;
 }
 .avatar-sm {
   height: 2rem;
@@ -24,6 +25,7 @@
   border: 2px solid var(--primary-color);
   border-radius: 15px;
   padding: 0.1rem;
+  object-fit: cover;
 }
 
 .avatar-container{

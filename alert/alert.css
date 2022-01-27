@@ -62,7 +62,7 @@
   flex-basis: 10%;
 }
 
-.sucess-alert {
+.success-alert {
   background-color: var(--success-bg);
   border-left: 0.5rem solid var(--success-secondary);
   color: var(--success-text);

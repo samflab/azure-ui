@@ -1,0 +1,120 @@
+:root {
+  --badge-bg: #b11212;
+  --badge-font: #ffffff;
+}
+* {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+}
+.badge-container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.icon-weight {
+  position: relative;
+}
+
+.badge-weight {
+  margin-right: 10px;
+}
+.bubble-weight {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--badge-bg);
+  color: var(--badge-font);
+}
+.sm-wt {
+  transform: translate(-10px, -10px);
+  padding: 0.2rem;
+  font-size: 0.87rem;
+}
+.md-wt {
+  transform: translate(-15px, -10px);
+  padding: 0.35rem;
+  font-size: 1rem;
+}
+
+.lg-wt {
+  transform: translate(-23px, -10px);
+  padding: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.badge-indc {
+  margin-left: 10px;
+}
+
+.icon-indc {
+  position: relative;
+}
+
+.sm-indc {
+  transform: translate(-12px, 1px);
+  padding: 0.2rem;
+}
+.md-indc {
+  transform: translate(-17px, 1px);
+  padding: 0.3rem;
+}
+
+.lg-indc {
+  transform: translate(-23px, 1px);
+  padding: 0.5rem;
+}
+.bubble-indc {
+  position: absolute;
+
+  border-radius: 50%;
+  background-color: var(--badge-bg);
+  color: var(--badge-font);
+}
+
+.circle {
+  position: relative;
+}
+.avatar-weight {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--badge-bg);
+  color: var(--badge-font);
+}
+
+.sm {
+  padding: 0.2rem;
+  font-size: 0.8rem;
+  transform: translate(-11px, -3px);
+}
+
+.md {
+  padding: 0.3rem;
+  font-size: 1rem;
+  transform: translate(-15px, -3px);
+}
+
+.lg {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  transform: translate(-20px, -3px);
+}
+
+.avatar-indc {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--badge-bg);
+  color: var(--badge-font);
+}
+
+.sm-indc {
+  transform: translate(-0.6rem, 0.19rem);
+  padding: 0.3rem;
+}
+
+.md-indc {
+  padding: 0.5rem;
+}
+
+.lg-indc {
+  padding: 0.7rem;
+}

@@ -1,3 +1,4 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
 :root {
   --info-bg: #d7f1ff;
   --info-primary: #74c7ff;
@@ -32,14 +33,14 @@
   gap: 1rem;
 }
 
-.alert-container div{
+.alert{
   height: auto;
   width: auto;
   display: flex;
   flex-direction: row;
   font-family: "Lato", sans-serif;
   justify-content: space-between;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem;
   align-items: center;
 }
 

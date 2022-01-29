@@ -135,3 +135,23 @@ del {
   width: 87.5%;
   border-radius: 0px 0px 5px 5px;
 }
+
+.card-data {
+  margin-right: auto;
+  flex-shrink: 50%;
+}
+.hrz {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+.img-hrz {
+  width: 30%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.btn-container {
+  width: 50%;
+}

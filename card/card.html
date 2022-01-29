@@ -8,21 +8,104 @@
     <link rel="stylesheet" href="card.css" />
   </head>
   <body>
-    <div class="card">
-      <div class="img-container">
-        <img
-          src="https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
-          class="card-img"
-        />
-        <div class="card-header">
-          <h3 class="card-title">Scott International</h3>
+    <!----------------------------CARD WITH BADGE---------------------------->
+    <div class="wrapper">
+      <div class="card">
+        <div class="img-container badge">
+          <button class="close-btn hidden">&times;</button>
+          <img
+            src="https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+            class="card-img"
+          />
+          <div class="card-header">
+            <h3 class="card-title">Scott International</h3>
+          </div>
+          <div class="card-content">
+            <p class="card-body">
+              Hiphop 2pac Graphic Printed Hoodies for Men Stylish Latest Regular
+              Fit
+            </p>
+            <span class="price">₹600</span> <del>₹2500</del>
+            <b class="discount">24% OFF</b>
+
+            <button class="wishlist btn">add to wishlist</button>
+            <button class="buy btn">buy now</button>
+          </div>
         </div>
-        <div class="card-content">
-          <p class="card-body">Hiphop 2pac Graphic Printed Hoodies for Men Stylish Latest Regular Fit</p>
-          <span class="price">₹600</span> <del>₹2500</del>
-          <b class="discount">24% OFF</b>
+      </div>
+      <!-----------------------------CARD WITH DISMISS--------------------------->
+      <div class="card">
+        <div class="img-container">
+          <button class="close-btn">&times;</button>
+          <img
+            src="https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+            class="card-img"
+          />
+          <div class="card-header">
+            <h3 class="card-title">Scott International</h3>
+          </div>
+          <div class="card-content">
+            <p class="card-body">
+              Hiphop 2pac Graphic Printed Hoodies for Men Stylish Latest Regular
+              Fit
+            </p>
+            <span class="price">₹600</span> <del>₹2500</del>
+            <b class="discount">24% OFF</b>
+
+            <button class="wishlist btn">add to wishlist</button>
+            <button class="buy btn">buy now</button>
+          </div>
+        </div>
+      </div>
+      <!----------------------------------CARD WITH TEXT OVERLAY------------------------------------------->
+      <div class="card">
+        <div class="img-container img-overlay">
+          <button class="close-btn hidden">&times;</button>
+          <img
+            src="https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+            class="card-img"
+          />
+          <div class="card-header overlay">
+            <h3 class="card-title">Scott International</h3>
+          </div>
+          <div class="card-content">
+            <p class="card-body hidden">
+              Hiphop 2pac Graphic Printed Hoodies for Men Stylish Latest Regular
+              Fit
+            </p>
+            <span class="price">₹600</span> <del>₹2500</del>
+            <b class="discount">24% OFF</b>
+
+            <button class="wishlist btn">add to wishlist</button>
+            <button class="buy btn">buy now</button>
+          </div>
+        </div>
+      </div>
+      <!--------------------------ONLY TEXT CARDS------------------------------->
+      <div class="card">
+        <div class="img-container">
+          <button class="close-btn hidden">&times;</button>
+          <img
+            src="https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+            class="card-img hidden"
+          />
+          <div class="card-header">
+            <h3 class="card-title">Scott International</h3>
+          </div>
+          <div class="card-content">
+            <p class="card-body">
+              Hiphop 2pac Graphic Printed Hoodies for Men Stylish Latest Regular
+              Fit
+            </p>
+            <span class="price">₹600</span> <del>₹2500</del>
+            <b class="discount">24% OFF</b>
+
+            <button class="wishlist btn">add to wishlist</button>
+            <button class="buy btn">buy now</button>
+          </div>
         </div>
       </div>
     </div>
+    <script src="card.js"></script>
   </body>
 </html>

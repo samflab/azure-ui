@@ -1,0 +1,224 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+:root {
+  --primary-btn-bg: #367af5;
+  --primary-btn-smooth: #e4eeff;
+  --btn-font: #f5f5f5;
+  --warning-btn-bg: #eb3d2e;
+  --warning-btn-smooth: #ffe5e3;
+  --success-btn-bg: #30a94e;
+  --success-btn-smooth: #dcf6e5;
+  --attn-btn-bg: #f3aa16;
+  --attn-bg-smooth: #fdf2d7;
+}
+.basic-btn {
+  border: none;
+  border-radius: 5px;
+  color: var(--btn-font);
+  font-size: 1.1rem;
+  margin: 1rem;
+  padding: 0.4rem 2rem;
+  cursor: pointer;
+}
+
+.link-btn {
+  background-color: transparent;
+  border: none;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.link-btn a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.icon-btn {
+  border: none;
+  border-radius: 50px;
+  color: var(--btn-font);
+  font-size: 1.1rem;
+  margin: 1rem;
+  padding: 0.4rem 2rem;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: var(--primary-btn-bg);
+  color: var(--btn-font);
+}
+
+.warning {
+  background-color: var(--warning-btn-bg);
+}
+
+.success {
+  background-color: var(--success-btn-bg);
+}
+
+.attention {
+  background-color: var(--attn-btn-bg);
+}
+
+.fa-arrow-left,
+.fa-check-circle,
+.fa-bell {
+  margin-right: 0.5rem;
+}
+
+.fa-exclamation-circle {
+  margin-left: 0.5rem;
+}
+
+.box-sh {
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+
+.smooth-btn {
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1rem;
+  padding: 0.6rem 2rem;
+  cursor: pointer;
+}
+
+.sm-prm {
+  background-color: var(--primary-btn-smooth);
+  color: var(--primary-btn-bg);
+}
+
+.sm-prm:hover {
+  background-color: var(--primary-btn-bg);
+  color: var(--primary-btn-smooth);
+  transition: ease-in 0.3s;
+}
+
+.sm-wrn {
+  background-color: var(--warning-btn-smooth);
+  color: var(--warning-btn-bg);
+}
+
+.sm-wrn:hover {
+  background-color: var(--warning-btn-bg);
+  color: var(--warning-btn-smooth);
+  transition: ease-in 0.3s;
+}
+
+.sm-scs {
+  background-color: var(--success-btn-smooth);
+  color: var(--success-btn-bg);
+}
+
+.sm-scs:hover {
+  background-color: var(--success-btn-bg);
+  color: var(--success-btn-smooth);
+  transition: ease-in 0.3s;
+}
+
+.sm-attn {
+  background-color: var(--attn-bg-smooth);
+  color: var(--attn-btn-bg);
+}
+
+.sm-attn:hover {
+  background-color: var(--attn-btn-bg);
+  color: var(--warning-btn-smooth);
+  transition: ease-in 0.3s;
+}
+
+.fl-btn {
+  border: none;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+}
+
+.circle {
+  border-radius: 50px;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.ghost-btn {
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1rem;
+  padding: 0.6rem 2rem;
+  cursor: pointer;
+}
+
+.ghost-prm {
+  background-color: transparent;
+  border: 0.5px solid var(--primary-btn-bg);
+  color: var(--primary-btn-bg);
+}
+
+.ghost-scs {
+  background-color: transparent;
+  border: 0.5px solid var(--success-btn-bg);
+  color: var(--success-btn-bg);
+}
+
+.ghost-wrn {
+  background-color: transparent;
+  border: 0.5px solid var(--warning-btn-bg);
+  color: var(--warning-btn-bg);
+}
+
+.ghost-attn {
+  background-color: transparent;
+  border: 0.5px solid var(--attn-btn-bg);
+  color: var(--attn-btn-bg);
+}
+
+.raised-btn{
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1rem;
+  padding: 0.6rem 2rem;
+  cursor: pointer;
+}
+
+.rs-prm{
+  color: var(--primary-btn-bg);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  background-color: transparent;
+
+}
+
+.rs-scs{
+  color: var(--success-btn-bg);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  background-color: transparent;
+
+}
+
+.rs-attn{
+  color: var(--attn-btn-bg);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  background-color: transparent;
+
+}
+
+.rs-wrn{
+  color: var(--warning-btn-bg);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  background-color: transparent;
+
+}

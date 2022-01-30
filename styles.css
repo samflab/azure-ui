@@ -7,9 +7,28 @@
 @import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
 
 :root {
-    --primary-dark: #253951;
-    --primary-light: #daeafa;
-    --font: #f0f8ff;
-    --secondary: #f6d000fc;
-  }
-  
+  --primary-dark: #253951;
+  --primary-light: #daeafa;
+  --font: #f0f8ff;
+  --secondary: #f6d000fc;
+
+  --blue-50: #d7f1ff;
+  --blue-100: #74c7ff;
+  --blue-150: #98d9fe;
+  --blue-200: #3bb3fc;
+
+  --green-50: #c2f3d6;
+  --green-100: #31d372;
+  --green-150: #96eab7;
+  --green-200: #22ab5d;
+
+  --red-50: #fee0e3;
+  --red-100: #fd495b;
+  --red-150: #ff99a6;
+  --red-200: #fc465b;
+
+  --yellow-50: #ffdb9a;
+  --yellow-100: #f9a40f;
+  --yellow-150: #fed180;
+  --yellow-200: #ca8501;
+}

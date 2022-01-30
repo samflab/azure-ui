@@ -1,25 +1,5 @@
 @import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
-:root {
-  --info-bg: #d7f1ff;
-  --info-primary: #74c7ff;
-  --info-secondary: #98d9fe;
-  --info-text: #3bb3fc;
-
-  --success-bg: #c2f3d6;
-  --success-primary: #31d372;
-  --success-secondary: #96eab7;
-  --success-text: #22ab5d;
-
-  --danger-bg: #fee0e3;
-  --danger-primary: #fd495b;
-  --danger-secondary: #ff99a6;
-  --danger-text: #fc465b;
-
-  --warning-bg: #ffdb9a;
-  --warning-primary: #f9a40f;
-  --warning-secondary: #fed180;
-  --warning-text: #ca8501;
-}
+@import url("../styles.css");
 
 * {
   font-size: 1rem;
@@ -29,7 +9,7 @@
   width: 20%;
 }
 
-.alert{
+.alert {
   height: auto;
   width: auto;
   display: flex;
@@ -40,65 +20,41 @@
   align-items: center;
 }
 
-.alert-msg{
+.alert-msg {
   margin: 0rem 0.5rem;
 }
-
+.info {
+  color: var(--blue-200);
+}
 .info-alert {
-  background-color: var(--info-bg);
-  border-left: 0.5rem solid var(--info-secondary);
-  color: var(--info-text);
+  background-color: var(--blue-50);
+  border-left: 0.5rem solid var(--blue-150);
 }
 
-.info-icon {
-  color: var(--info-text);
+.success {
+  color: var(--green-200);
 }
-
-.info-close {
-  color: var(--info-text);
-  flex-basis: 10%;
-}
-
 .success-alert {
-  background-color: var(--success-bg);
-  border-left: 0.5rem solid var(--success-secondary);
-  color: var(--success-text);
+  background-color: var(--green-50);
+  border-left: 0.5rem solid var(--green-150);
 }
 
-.success-close {
-  color: var(--success-text);
-  flex-basis: 10%;
-}
-
-.success-icon {
-  color: var(--success-text);
+.danger {
+  color: var(--red-200);
 }
 .danger-alert {
-  background-color: var(--danger-bg);
-  border-left: 0.5rem solid var(--danger-secondary);
-  color: var(--danger-text);
+  background-color: var(--red-50);
+  border-left: 0.5rem solid var(--red-150);
 }
 
-.danger-close {
-  color: var(--danger-text);
-  flex-basis: 10%;
+.warning {
+  color: var(--yellow-200);
 }
-
-.danger-icon {
-  color: var(--danger-text);
-}
-
 .warning-alert {
-  background-color: var(--warning-bg);
-  border-left: 0.5rem solid var(--warning-secondary);
-  color: var(--warning-text);
+  background-color: var(--yellow-50);
+  border-left: 0.5rem solid var(--yellow-150);
 }
 
-.warning-close {
-  color: var(--warning-text);
+.close {
   flex-basis: 10%;
-}
-
-.warning-icon {
-  color: var(--warning-text);
 }

@@ -1,4 +1,5 @@
 @import url("../styles.css");
+
 .baseline-btn {
   background-color: var(--primary-dark);
   border: none;
@@ -10,7 +11,7 @@
   padding: 0.6rem 2rem;
 }
 .baseline-toast {
-  /* visibility: hidden; */
+  visibility: hidden;
   background-color: var(--primary-dark);
   bottom: 1rem;
   margin: 0 auto;

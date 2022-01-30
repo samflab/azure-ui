@@ -80,7 +80,7 @@
   font-size: 1.2rem;
 }
 
-del {
+.original-price {
   font-weight: 400;
   color: gray;
 }
@@ -143,7 +143,7 @@ del {
 .hrz {
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 60%;
 }
 
 .img-hrz {
@@ -152,6 +152,6 @@ del {
   margin-right: 1rem;
 }
 
-.btn-container {
-  width: 50%;
+.btn-container-hrz {
+  width: 60%;
 }

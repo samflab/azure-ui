@@ -1,11 +1,5 @@
-:root {
-  --badge-bg: #b11212;
-  --badge-font: #ffffff;
-}
-* {
-  font-size: 1rem;
-  font-family: "Lato", sans-serif;
-}
+@import url("../styles.css");
+
 .badge-container {
   margin: 1rem;
   display: flex;
@@ -22,8 +16,8 @@
 .bubble-weight {
   position: absolute;
   border-radius: 50%;
-  background-color: var(--badge-bg);
-  color: var(--badge-font);
+  background-color: var(--blue-200);
+  color: var(--font);
 }
 .sm-wt {
   transform: translate(-10px, -10px);
@@ -67,8 +61,8 @@
   position: absolute;
 
   border-radius: 50%;
-  background-color: var(--badge-bg);
-  color: var(--badge-font);
+  background-color: var(--blue-200);
+  color: var(--font);
 }
 
 .circle {
@@ -77,8 +71,8 @@
 .avatar-weight {
   position: absolute;
   border-radius: 50%;
-  background-color: var(--badge-bg);
-  color: var(--badge-font);
+  background-color: var(--blue-200);
+  color: var(--font);
 }
 
 .sm {
@@ -102,8 +96,8 @@
 .avatar-indc {
   position: absolute;
   border-radius: 50%;
-  background-color: var(--badge-bg);
-  color: var(--badge-font);
+  background-color: var(--blue-200);
+  color: var(--font);
 }
 
 .sm-indc {

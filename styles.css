@@ -1,0 +1,15 @@
+/*Importing shared css files*/
+@import url("./shared/index.css");
+@import url("./shared/reset.css");
+
+/*Importing Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+:root {
+    --primary-dark: #253951;
+    --primary-light: #daeafa;
+    --font: #f0f8ff;
+    --secondary: #f6d000fc;
+  }
+  

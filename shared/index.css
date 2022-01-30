@@ -1,6 +1,5 @@
-@import url("../shared/reset.css");
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+@import url("../styles.css");
+
 * {
   font-size: 1.1rem;
   scroll-behavior: smooth;
@@ -14,7 +13,7 @@
   background-color: aliceblue;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--primary-dark);
 }
 
 .logo {
@@ -39,7 +38,7 @@
 
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(--primary-dark);
 }
 
 .hero-container {
@@ -63,7 +62,7 @@ a {
 }
 
 .start-btn {
-  background-color: var(--primary-color);
+  background-color: var(--primary-dark);
   color: var(--font);
   border: none;
   padding: 0.8rem 1.2rem;
@@ -78,15 +77,15 @@ a {
 
 .install-btn {
   padding: 0.6rem 1.2rem;
-  border: 2px solid var(--primary-color);
-  color: var(--primary-color);
+  border: 2px solid var(--primary-dark);
+  color: var(--primary-dark);
   background-color: var(--font);
   margin-right: 0.5rem;
 }
 
 .start-btn:hover {
   background-color: var(--secondary);
-  color: var(--primary-color);
+  color: var(--primary-dark);
   transition: ease-in 0.2s;
 }
 
@@ -103,7 +102,7 @@ a {
 
 .section {
   padding: 2rem;
-  background-color: var(--primary-shade100);
+  background-color: var(--primary-light);
 }
 .install-hd {
   padding-bottom: 1rem;
@@ -119,7 +118,6 @@ a {
   height: 80%;
   padding: 1rem;
   background-color: var(--font);
-
   transition: background-color 0.2s, border 0.2s;
 }
 
@@ -129,7 +127,7 @@ a {
 }
 
 .install-card:hover {
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--primary-dark);
 }
 
 @media screen and (max-width: 640px) {
@@ -138,7 +136,7 @@ a {
     display: block;
   }
 
-  .hero-img{
+  .hero-img {
     margin-left: 0;
   }
   .hero-content {
@@ -146,13 +144,12 @@ a {
   }
 }
 
-
 @media screen and (max-width: 1050px) {
   .hero-content {
     padding: 8vh 2rem;
   }
 
-  .hero-img{
+  .hero-img {
     margin-bottom: 0.5rem;
   }
 }

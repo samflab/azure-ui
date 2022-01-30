@@ -1,4 +1,5 @@
 /*Importing shared css files*/
+@import url("./shared/index.css");
 @import url("./shared/reset.css");
 
 /*Importing Fonts*/

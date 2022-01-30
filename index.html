@@ -4,47 +4,97 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
-    <title>Component Library</title>
-    <link rel="stylesheet" href="./shared/index.css" />
-    <link rel="stylesheet" href="./shared/reset.css" />
+    <title>Azure UI</title>
+    <link rel="stylesheet" href="shared/reset.css" />
+    <link rel="stylesheet" href="shared/index.css" />
   </head>
   <body>
-    <nav>
-      <div class="nav-title">
-        <img
-          src="https://images.unsplash.com/photo-1619454016518-697bc231e7cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-          class="logo"
-        />
-        <a class="company-name">Company Name</a>
-      </div>
-      <div class="nav-menu">
-        <ul class="nav-item">
-          <li class="nav-docs"><a>DOCS</a></li>
-        </ul>
-      </div>
-    </nav>
+    <header class="header">
+      <h1 class="logo">
+        <img src="" alt="" />
+        <a href="">Azure UI</a>
+      </h1>
 
-    <main class="hero-container">
-      <div class="hero-content">
-        <h1 class="hero-heading">XYZ</h1>
-        Welcome to XYZ, a CSS component library, build your UI faster in just
-        few lines of code. Its user friendly.
-        <button class="hero-btn">
-          Let's get started <i class="fas fa-arrow-right"></i>
-        </button>
+      <div class="header-nav">
+        <nav>
+          <ul>
+            <li class="docs"><a class="link" href="">Docs</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="hero-img-container">
-        <img src="svg/design.svg" class="hero-img" />
+    </header>
+
+    <main>
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="azure">AZURE UI</h1>
+          <p class="intro">
+            A lightweight and ready-to-use CSS library for developing fast and
+            responsive web interfaces. Develop more with Azure!
+          </p>
+          
+          <button class="install-btn btn"><a href="#installation" >Installation <i class="fas fa-arrow-down"></i></a></button>
+          <button class="start-btn btn">
+            Let's get started <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="hero-img">
+          <img src="svg/design.svg" alt="ui-design" />
+        </div>
+      </div>
+
+      <div class="section" id="installation">
+        <h1 class="install-hd">Installation Guide</h1>
+        <div class="install">
+          <div class="install-card">
+            <div class="css">
+              <div class="card-header">
+                <h1 class="title">CSS Styles</h1>
+                <p class="css-body">
+                  To get the styles of the components, add the following line of
+                  code in the head tag of your html document.
+                </p>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fazure-ui.netlify.app%252Fstyles.css%2522%253E"
+                  style="
+                    width: 100%;
+                    height: 300px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="install-card">
+            <div class="css">
+              <div class="card-header">
+                <h1 class="title">Font Awesome Icons</h1>
+                <p class="css-body">
+                  To get the Font Awesome Icons, add the following line of code on the top
+                  of the css file in your html document.
+                </p>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%2522https%253A%252F%252Fuse.fontawesome.com%252Freleases%252Fv5.15.4%252Fcss%252Fall.css%2522%29%253B"
+                  style="
+                    width: 100%;
+                    height: 300px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </body>

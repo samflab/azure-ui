@@ -1,128 +1,158 @@
-/********************* ROOT ELEMENTS ************************/
-:root {
-  --main-bg-color: #e8f2fc;
-  --primary-color: #253951;
-  --secondary-color: #f6d000fc;
+@import url("../shared/reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+* {
+  font-size: 1.1rem;
+  scroll-behavior: smooth;
 }
-
-/***********************NAVBAR ********************************/
-nav {
+.header {
+  display: flex;
   align-items: center;
-  background-color: var(--main-bg-color);
-  display: flex;
-  flex-direction: row;
-  height: 5rem;
-  border-bottom: 1px solid rgba(37, 57, 81, 0.15);
-  width: 100%;
-}
-
-.nav-title {
-  color: var(--primary-color);
-  cursor: pointer;
-  display: flex;
-  margin-left: 2rem;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  height: 8vh;
+  background-color: aliceblue;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--primary-color);
 }
 
 .logo {
-  height: 2rem;
-  width: 2rem;
-  margin-right: 1rem;
-}
-.company-name {
-  padding-top: 0.3rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
-.nav-menu {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
+.header-nav {
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.nav-menu li {
+.header-nav .docs {
   display: inline-block;
-  font-family: "Noto Sans", sans-serif;
-  margin-right: 2rem;
 }
 
-.nav-docs {
-  font-size: 0.875em;
-  font-weight: 500;
-  line-height: calc(5.625rem - 12px);
-  padding: 0rem 1rem 0rem 1rem;
-  text-transform: uppercase;
-  cursor: pointer;
+.header-nav .link {
+  padding: 0.5rem;
 }
 
-.nav-docs:hover {
-  border-bottom: 2px solid var(--primary-color);
-}
-
-@media only screen and (max-width: 600px) {
-  .company-name {
-    display: none;
-  }
-}
-
-/********************** HERO CONTENT **************************/
-.hero-container {
-  height: 60vh;
-  background-color: var(--main-bg-color);
+a {
+  text-decoration: none;
   color: var(--primary-color);
+}
+
+.hero-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  position: relative;
+  background-color: aliceblue;
+  height: auto;
 }
-.hero-heading {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-}
+
 .hero-content {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1rem;
-  padding: 10rem 2rem 5rem 2rem;
+  padding: 25vh 2rem;
 }
 
-.hero-btn {
+.azure {
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-size: 0.92rem;
+  font-weight: 400;
+}
+
+.start-btn {
   background-color: var(--primary-color);
+  color: var(--font);
   border: none;
-  border-radius: 50px;
-  color: #ffffff;
-  cursor: pointer;
-  display: block;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  margin-top: 1rem;
-  padding: 1rem 2rem;
-  transition: 0.3s;
-}
-.fa-arrow-right {
-  margin-left: 0.5rem;
-}
-.hero-btn:hover {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-}
-.hero-img {
-  padding: 1rem 2rem;
-  left: 412px;
-  top: 236px;
-  height: 80%;
-  width: 100%;
+  padding: 0.8rem 1.2rem;
 }
 
-@media only screen and (max-width: 600px) {
-  .hero-container {
+.btn {
+  border-radius: 50px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.install-btn {
+  padding: 0.6rem 1.2rem;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: var(--font);
+  margin-right: 0.5rem;
+}
+
+.start-btn:hover {
+  background-color: var(--secondary);
+  color: var(--primary-color);
+  transition: ease-in 0.2s;
+}
+
+.fa-arrow-right {
+  margin-left: 0.3rem;
+}
+
+.hero-img {
+  padding-top: 1rem;
+  margin-left: auto;
+  height: 40%;
+  width: 90%;
+}
+
+.section {
+  padding: 2rem;
+  background-color: var(--primary-shade100);
+}
+.install-hd {
+  padding-bottom: 1rem;
+}
+.install {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.install-card {
+  border: 2px solid rgba(37, 57, 81, 0.2);
+  width: 90%;
+  height: 80%;
+  padding: 1rem;
+  background-color: var(--font);
+
+  transition: background-color 0.2s, border 0.2s;
+}
+
+.css-body {
+  margin: 1rem 0rem;
+  font-size: 0.95rem;
+}
+
+.install-card:hover {
+  border: 2px solid var(--primary-color);
+}
+
+@media screen and (max-width: 640px) {
+  .hero-container,
+  .install {
     display: block;
   }
-  .hero-img-container {
-    background-color: var(--main-bg-color);
+
+  .hero-img{
+    margin-left: 0;
   }
-  .hero-img {
-    margin-left: 0rem;
+  .hero-content {
+    padding: 10vh 2rem;
+  }
+}
+
+
+@media screen and (max-width: 1050px) {
+  .hero-content {
+    padding: 8vh 2rem;
+  }
+
+  .hero-img{
+    margin-bottom: 0.5rem;
   }
 }

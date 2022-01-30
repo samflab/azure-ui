@@ -1,5 +1,4 @@
 /*Importing shared css files*/
-@import url("./shared/index.css");
 @import url("./shared/reset.css");
 
 /*Importing Fonts*/
@@ -36,4 +35,8 @@
   --yellow-150: #fed180;
   --yellow-200: #ca8501;
   --yellow-250: #f3aa16;
+
+  --gray-50:#747474;
+  --gray-100: #808080;
+  --gray-200: #3a3a3a;
 }

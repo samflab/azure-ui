@@ -5,14 +5,20 @@
 }
 
 .alert {
-  height: auto;
-  width: auto;
+  width: 20rem;
   display: flex;
   flex-direction: row;
   font-family: "Lato", sans-serif;
   justify-content: space-between;
   padding: 0.5rem;
   align-items: center;
+  margin: 1rem 0rem 1rem 0rem ;
+}
+
+.iframe-alert{
+  width: 37rem;
+  height: 55rem;
+  border: 0;
 }
 
 .alert-msg {

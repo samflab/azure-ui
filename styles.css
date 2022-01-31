@@ -1,6 +1,7 @@
 /*Importing shared css files*/
 @import url("./shared/index.css");
 @import url("./shared/reset.css");
+@import url("./shared/docs.css");
 
 /*Importing Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");

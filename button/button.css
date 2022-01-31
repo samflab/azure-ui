@@ -73,7 +73,7 @@ a:hover {
   border: none;
   border-radius: 5px;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: var(--fw-600);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 1rem;
@@ -142,7 +142,7 @@ a:hover {
 .ghost-btn {
   border-radius: 5px;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: var(--fw-600);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 1rem;
@@ -177,7 +177,7 @@ a:hover {
 .raised-btn {
   border: none;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: var(--fw-600);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 1rem;

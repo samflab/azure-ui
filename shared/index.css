@@ -1,7 +1,6 @@
 @import url("../styles.css");
 
 * {
-  font-size: 1.1rem;
   scroll-behavior: smooth;
   color: var(--primary-dark);
 }

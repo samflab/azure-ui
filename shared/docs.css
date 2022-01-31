@@ -1,3 +1,4 @@
+@import url("../styles.css");
 .avatar-content {
     padding: 5vh 8rem;
     background-color: aliceblue;
@@ -19,7 +20,7 @@
   .section-sub {
     font-size: 1.1rem;
     font-weight: var(--fw-600);
-    margin-bottom: 1rem;
+    margin: 1rem 0rem;
   }
   
   .code {
@@ -38,6 +39,10 @@
     overflow: hidden;
     margin: 1rem;
     border-radius: 10px;
+  }
+
+  .ifram-badge{
+    width: 55rem;
   }
   
   
@@ -66,4 +71,8 @@
     background-color: var(--primary-light);
     border-radius: 50px;
     transition: ease-in 0.1s;
+  }
+
+  .section-body{
+    margin-bottom: 0.9rem;
   }

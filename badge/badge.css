@@ -1,10 +1,9 @@
 @import url("../styles.css");
 
 .badge-container {
-  margin: 1rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 .icon-weight {
   position: relative;
@@ -34,10 +33,6 @@
   transform: translate(-23px, -10px);
   padding: 0.4rem;
   font-size: 1.1rem;
-}
-
-.badge-indc {
-  margin-left: 10px;
 }
 
 .icon-indc {

@@ -1,7 +1,6 @@
 @import url("../styles.css");
 .card {
   display: flex;
-  flex-direction: row;
   padding: 0rem 4rem;
   list-style: none;
   border-bottom: 1px solid var(--gray-100);
@@ -20,13 +19,13 @@
 }
 
 .name {
-  font-size: medium;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: var(--fw-600);
   color: var(--gray-200);
 }
 
 .email {
-  font-size: medium;
+  font-size: 1rem;
   color: var(--gray-50);
 }
 

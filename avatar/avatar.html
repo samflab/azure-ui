@@ -4,43 +4,143 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Avatar</title>
+    <title>Docs | Azure UI</title>
     <link rel="stylesheet" href="avatar.css" />
   </head>
   <body>
-      <div class="avatar-container">
-        <img
-          class="avatar-sm circle"
-          src="https://i.redd.it/7ib98txs7yi21.jpg"
-        />
-        <img
-          class="avatar-md circle"
-          src="https://i.redd.it/7ib98txs7yi21.jpg"
-        />
-        <img
-          class="avatar-lg circle"
-          src="https://i.redd.it/7ib98txs7yi21.jpg"
-        />
+    <!--COMMON HTML-->
+    <header class="header">
+      <h1 class="img-header">
+        <img src="/svg/logo.svg" alt="Logo" class="img-logo" />
+      </h1>
+
+      <div class="header-nav">
+        <nav>
+          <ul>
+            <li class="docs"><a class="link" href="">Docs</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
-    <div>
-      <div class="avatar-container">
-        <img
-          class="avatar-sm rounded"
-          src="https://i.redd.it/7ib98txs7yi21.jpg"
-        />
-        <img
-          class="avatar-md rounded"
-          src="https://i.redd.it/7ib98txs7yi21.jpg"
-        />
-        <img
-          class="avatar-lg rounded"
-          src="https://i.redd.it/7ib98txs7yi21.jpg"
-        />
-      </div>
+    </header>
+    <!---->
+    
+      <main>
+        <div class="avatar-content">
+          <h1 class="avatar">Avatar</h1>
+          <p class="avatar-intro">
+            The Avatar component is used to represent a user, and displays the
+            profile picture, initials or fallback icon.
+          </p>
+        </div>
+        <div class="body">
+        <div class="avatar-section">
+          <h1 class="section-heading">Usage</h1>
+          <div class="section-sub">Circular Avatar</div>
+          <div>
+            <img
+              class="avatar-md circle"
+              src="https://i.redd.it/7ib98txs7yi21.jpg"
+            />
+          </div>
+
+          <iframe
+            class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-md%2520circle%2522%2520src%253D%2522..%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="section-sub">Rounded Avatar</div>
+          <div>
+            <img
+              class="avatar-md rounded"
+              src="https://i.redd.it/7ib98txs7yi21.jpg"
+            />
+          </div>
+
+          <iframe
+            class="iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-md%2520rounded%2522%2520src%253D%2522..%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <h1 class="section-heading">Sizes</h1>
+          <p>
+            Circular and Rounded Avatar comes in various sizes, you can use
+            <span class="code">.avatar-lg</span> ,
+            <span class="code">.avatar-md</span> ,
+            <span class="code">.avatar-sm</span> or
+            <span class="code">.avatar-xs</span> for various sizes
+          </p>
+          <div>
+            <img
+              class="avatar-lg circle"
+              src="https://i.redd.it/7ib98txs7yi21.jpg"
+            />
+            <img
+              class="avatar-md circle"
+              src="https://i.redd.it/7ib98txs7yi21.jpg"
+            />
+
+            <img
+              class="avatar-sm circle"
+              src="https://i.redd.it/7ib98txs7yi21.jpg"
+            />
+            <img
+              class="avatar-xs circle"
+              src="https://i.redd.it/7ib98txs7yi21.jpg"
+            />
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=auto&width=375.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-lg%2520circle%2522%2520src%253D%2522..%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar-md%2520circle%2522%2520src%253D%2522..%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar-sm%2520circle%2522%2520src%253D%2522..%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar-xs%2520circle%2522%2520src%253D%2522..%2522%252F%253E%2520%2520%2520"
+            class="iframe"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div>
+            <img
+              class="avatar-lg rounded"
+              src="https://i.redd.it/7ib98txs7yi21.jpg"
+            />
+            <img
+              class="avatar-md rounded"
+              src="https://i.redd.it/7ib98txs7yi21.jpg"
+            />
+            <img
+              class="avatar-sm rounded"
+              src="https://i.redd.it/7ib98txs7yi21.jpg"
+            />
+            <img
+              class="avatar-xs rounded"
+              src="https://i.redd.it/7ib98txs7yi21.jpg"
+            />
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=auto&width=375.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-lg%2520rounded%2522%2520src%253D%2522..%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar-md%2520rounded%2522%2520src%253D%2522..%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar-sm%2520rounded%2522%2520src%253D%2522..%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar-xs%2520rounded%2522%2520src%253D%2522..%2522%252F%253E%2520%2520%2520"
+            class="iframe"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+        <aside class="avatar-section">
+          <ul>
+            <li class="links"><a href="">Alert</a></li>
+            <li class="links active"><a href="avatar.html">Avatar</a></li>
+            <li class="links"><a href="">Badge</a></li>
+            <li class="links"><a href="">Button</a></li>
+            <li class="links"><a href="">Card</a></li>
+            <li class="links"><a href="">Image</a></li>
+            <li class="links"><a href="">Input</a></li>
+            <li class="links"><a href="">List</a></li>
+            <li class="links"><a href="">Modal</a></li>
+            <li class="links"><a href="">Toast</a></li>
+            <li class="links"><a href="">Typography</a></li>
+            
+          </ul>
+        </aside>
+      </main>
+      
     </div>
   </body>
 </html>
-
-
-<!--add a default avatar without img-->

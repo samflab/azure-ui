@@ -12,16 +12,15 @@
 .link-btn {
   background-color: transparent;
   border: none;
-  margin: 1rem;
-  padding: 1rem;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-size: 1.09rem;
+  color: var(--primary-dark);
 }
 
-.link-btn a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+.link-btn:hover{
+  background-color: var(--primary-light);
 }
 
 .icon-btn {

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="button/button.css" />
     <title>Button | Azure UI</title>
   </head>
   <body>
@@ -26,13 +27,236 @@
     <main>
       <div class="avatar-content">
         <h1 class="avatar">Button</h1>
-        <p class="avatar-intro">About button</p>
+        <p class="avatar-intro">
+          Buttons allow users to take actions, and make choices, with a single
+          click.
+        </p>
       </div>
       <div class="body">
         <div class="avatar-section">
           <h1 class="section-heading">Usage</h1>
-          <div class="section-sub">kjdjd</div>
-          <p class="section-body">some text</p>
+          <div class="section-sub">Contained Buttons</div>
+          <p class="section-body">
+            Contained buttons are high-emphasis, distinguished by their use of
+            elevation and fill. They contain actions that are primary to your
+            app.
+          </p>
+          <button class="basic-btn primary">Primary</button>
+          <button class="basic-btn warning">Warning</button>
+          <button class="basic-btn success">Positive</button>
+          <button class="basic-btn attention">Attention</button>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522basic-btn%2520primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522basic-btn%2520warning%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522basic-btn%2520success%2522%253EPositive%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522basic-btn%2520attention%2522%253EAttention%253C%252Fbutton%253E%250A"
+            style="
+              width: 569px;
+              height: 149px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="section-sub">Ghost / Outlined Buttons</div>
+          <p class="section-body">
+            Outlined buttons are medium-emphasis buttons. They contain actions
+            that are important, but aren’t the primary action in an app.
+            Outlined buttons are also a lower emphasis alternative to contained
+            buttons, or a higher emphasis alternative to text buttons.
+          </p>
+
+          <button class="ghost-btn ghost-prm">Ghost</button>
+          <button class="ghost-btn ghost-wrn">Ghost</button>
+          <button class="ghost-btn ghost-scs">Ghost</button>
+          <button class="ghost-btn ghost-attn">Ghost</button>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522ghost-btn%2520ghost-prm%2522%253EGhost%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522ghost-btn%2520ghost-wrn%2522%253EGhost%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522ghost-btn%2520ghost-scs%2522%253EGhost%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522ghost-btn%2520ghost-attn%2522%253EGhost%253C%252Fbutton%253E%250A"
+            style="
+              width: 569px;
+              height: 149px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="section-sub">Buttons with Icons</div>
+          <p class="section-body">
+            Sometimes you might want to have icons for certain button to enhance
+            the UX of the application as we recognize logos more easily than
+            plain text. For example, if you have a delete button you can label
+            it with a dustbin icon.
+          </p>
+
+          <button class="icon-btn primary">
+            <i class="fas fa-arrow-left"></i>Previous
+          </button>
+          <button class="icon-btn warning">
+            Warning <i class="fas fa-exclamation-circle"></i>
+          </button>
+          <button class="icon-btn success">
+            <i class="fas fa-check-circle"></i> Positive
+          </button>
+          <button class="icon-btn attention">
+            <i class="fas fa-bell"></i> Attention
+          </button>
+
+          <div class="section-sub">Raised Buttons</div>
+          <p class="section-body">
+            It provides dimensionality to your UI along z-axis with clues of
+            shadow.
+          </p>
+
+          <button class="raised-btn rs-prm">Raised</button>
+          <button class="raised-btn rs-wrn">Raised</button>
+          <button class="raised-btn rs-scs">Raised</button>
+          <button class="raised-btn rs-attn">Raised</button>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522raised-btn%2520rs-prm%2522%253ERaised%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522raised-btn%2520rs-wrn%2522%253ERaised%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522raised-btn%2520rs-scs%2522%253ERaised%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522raised-btn%2520rs-attn%2522%253ERaised%253C%252Fbutton%253E"
+            style="
+              width: 569px;
+              height: 130px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="section-sub">Smooth Button</div>
+          <p class="section-body">
+            Smooth buttons for those eye-pleasing aesthetic look to your web
+            app.
+          </p>
+
+          <button class="smooth-btn sm-prm">Smooth</button>
+          <button class="smooth-btn sm-wrn">Smooth</button>
+          <button class="smooth-btn sm-scs">Smooth</button>
+          <button class="smooth-btn sm-attn">Smooth</button>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522smooth-btn%2520sm-prm%2522%253ESmooth%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522smooth-btn%2520sm-wrn%2522%253ESmooth%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522smooth-btn%2520sm-scs%2522%253ESmooth%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522smooth-btn%2520sm-attn%2522%253ESmooth%253C%252Fbutton%253E%250A"
+            style="
+              width: 569px;
+              height: 149px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="section-sub">Smooth Button</div>
+          <p class="section-body">
+            Here's a bunch of buttons with the box-shadow effect
+          </p>
+          <button class="basic-btn primary box-sh">Primary</button>
+          <button class="icon-btn success box-sh">
+            <i class="fas fa-check-circle"></i> Positive
+          </button>
+          <button class="ghost-btn box-sh ghost-wrn">Ghost</button>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522basic-btn%2520primary%2520box-sh%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2520success%2520box-sh%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253EPositive%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522ghost-btn%2520box-sh%2520ghost-wrn%2522%253EGhost%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520"
+            style="
+              width: 569px;
+              height: 167px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="section-sub">Circle Floating Buttons</div>
+          <div>
+            <button class="fl-btn circle box-sh primary">
+              <i class="fas fa-plus"></i>
+            </button>
+            <button class="fl-btn circle sm-prm">
+              <i class="fas fa-plus fa-fl"></i>
+            </button>
+            <button class="fl-btn circle ghost-prm">
+              <i class="fas fa-plus fa-fl"></i>
+            </button>
+            <button class="fl-btn circle rs-prm">
+              <i class="fas fa-plus fa-fl"></i>
+            </button>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522fl-btn%2520circle%2520box-sh%2520primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2520%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522fl-btn%2520circle%2520sm-prm%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2520fa-fl%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522fl-btn%2520circle%2520ghost-prm%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2520fa-fl%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522fl-btn%2520circle%2520rs-prm%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2520fa-fl%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A"
+            style="
+              width: 569px;
+              height: 222px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+              margin-top: 1rem;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="section-sub">Rounded Floating Buttons</div>
+          <div>
+            <button class="fl-btn rounded box-sh primary">
+              <i class="fas fa-plus"></i>
+            </button>
+            <button class="fl-btn rounded sm-prm">
+              <i class="fas fa-plus fa-fl"></i>
+            </button>
+            <button class="fl-btn rounded ghost-prm">
+              <i class="fas fa-plus fa-fl"></i>
+            </button>
+            <button class="fl-btn rounded rs-prm">
+              <i class="fas fa-plus fa-fl"></i>
+            </button>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cbutton%2520class%253D%2522fl-btn%2520rounded%2520box-sh%2520primary%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522fl-btn%2520rounded%2520sm-prm%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2520fa-fl%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522fl-btn%2520rounded%2520ghost-prm%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2520fa-fl%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522fl-btn%2520rounded%2520rs-prm%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2520fa-fl%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520"
+            style="
+              width: 569px;
+              height: 222px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+              margin-top: 1rem;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="section-sub">Link Buttons</div>
+
+          <p class="section-body">
+            Link buttons are typically used for less-pronounced actions,
+            including those located in dialogs or in cards.
+          </p>
+          
+            <a class="link-btn" href="https://azure-ui.netlify.app/">Touch here</a>
+            
+          
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%2520%253Ca%2520class%253D%2522link-btn%2522%2520href%253D%2522https%253A%252F%252Fazure-ui.netlify.app%252F%2522%253E%250A%2520%2520%2520Touch%2520here%250A%2520%253C%252Fa%253E%250A%2520%2520%2520%2520"
+            style="
+              width: 569px;
+              height: 130px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+              margin-top: 1rem;
+              display: block;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
         </div>
 
         <aside class="avatar-section">

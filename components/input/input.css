@@ -1,4 +1,4 @@
-@import url("../styles.css");
+@import url("../../styles.css");
 
 .email-inp {
   border-radius: 5px;
@@ -13,6 +13,7 @@
 }
 
 .error {
+  background-color: transparent;
   margin: 0.3rem;
   display: none;
   font-size: 1rem;

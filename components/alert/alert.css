@@ -24,6 +24,9 @@
 .alert-msg {
   margin: 0rem 0.5rem;
 }
+.fa-info-circle{
+  color: var(--blue-200);
+}
 .info {
   color: var(--blue-200);
 }

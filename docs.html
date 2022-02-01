@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="components/text/text.css" />
-    <title>Typography | Azure UI</title>
+    <link rel="stylesheet" href="components/toast/toast.css" />
+    <title>Toast | Azure UI</title>
   </head>
   <body>
     <!--COMMON HTML-->
@@ -28,107 +28,30 @@
 
     <main>
       <div class="doc-content">
-        <h1 class="doc">Typography</h1>
+        <h1 class="doc">Toast</h1>
         <p class="doc-intro">
-          Documentation and examples for common text utilities to control
-          alignment, weight, and more.
+          Toast are short messages that disappear on its own, describing an user
+          action.
         </p>
       </div>
       <div class="body">
         <div class="doc-section">
           <h1 class="section-heading">Usage</h1>
-          <div class="section-sub">Headings</div>
-          <p class="section-body">
-            All HTML headings, <span class="code">h1</span> to
-            <span class="code">h6</span> are available.
-          </p>
-
-          <!--HEADINGS-->
-          <h1 class="type-1">Heading 1</h1>
-          <h2 class="type-2">Heading 2</h2>
-          <h3 class="type-3">Heading 3</h3>
-          <h4 class="type-4">Heading 4</h4>
-          <h5 class="type-5">Heading 5</h5>
-
+          <div class="section-sub">Baseline Toast Messages</div>
+          <p class="section-body">Click this button for a demo.</p>
+          <div><button class="baseline-btn">Baseline</button></div>
+          
+          <div class="baseline-toast">
+            <span class="toast-msg">Here's a toast message</span>
+            <button class="toast-btn">
+              <i class="fas fa-times-circle"></i>
+            </button>
+          </div>
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=584.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522type-1%2522%253EHeading%25201%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522type-2%2522%253EHeading%25202%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522type-3%2522%253EHeading%25203%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522type-4%2522%253EHeading%25204%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Ch5%2520class%253D%2522type-5%2522%253EHeading%25205%253C%252Fh5%253E%250A%250A"
-            style="
-              width: 584px;
-              height: 204px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-              margin: 1rem 0rem;
-              border-radius: 10px;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-
-          <div class="section-sub">Paragraph</div>
-          <p class="section-body">All paragraph styles are available.</p>
-
-          <!--TYPOGRAPHY-->
-          <p class="type-1">Lorem Ipsum</p>
-          <p class="type-2">Lorem Ipsum</p>
-          <p class="type-3">Lorem Ipsum</p>
-          <p class="type-4">Lorem Ipsum</p>
-          <p class="type-5">Lorem Ipsum</p>
-
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=584.25&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cp%2520class%253D%2522type-1%2522%253ELorem%2520Ipsum%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522type-2%2522%253ELorem%2520Ipsum%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522type-3%2522%253ELorem%2520Ipsum%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522type-4%2522%253ELorem%2520Ipsum%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522type-5%2522%253ELorem%2520Ipsum%253C%252Fp%253E%250A"
-            style="
-              width: 554px;
-              height: 167px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-              margin: 1rem 0rem;
-              border-radius: 10px;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-
-          <div class="section-sub">Gray Texts</div>
-          <p class="section-body">
-            You can get the gray text using <span class="code">.gray</span> .
-          </p>
-
-          <h3 class="type-3 gray">Heading 3</h3>
-          <h4 class="type-4 gray">Heading 4</h4>
-          <h5 class="type-5 gray">Heading 5</h5>
-
-          <p class="type-3 gray">Lorem Ipsum</p>
-          <p class="type-4 gray">Lorem Ipsum</p>
-          <p class="type-5 gray">Lorem Ipsum</p>
-
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=554&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522type-3%2520gray%2522%253EHeading%25203%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522type-4%2520gray%2522%253EHeading%25204%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522type-5%2520gray%2522%253EHeading%25205%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522type-3%2520gray%2522%253ELorem%2520Ipsum%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522type-4%2520gray%2522%253ELorem%2520Ipsum%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522type-5%2520gray%2522%253ELorem%2520Ipsum%253C%252Fp%253E%250A"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=554&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522baseline-btn%2522%253EBaseline%253C%252Fbutton%253E%250A%250A%253Cdiv%2520class%253D%2522baseline-toast%2522%253E%250A%253Cspan%2520class%253D%2522toast-msg%2522%253EHere%27s%2520a%2520toast%2520message%253C%252Fspan%253E%250A%253Cbutton%2520class%253D%2522toast-btn%2522%253E%250A%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A"
             style="
               width: 554px;
               height: 204px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-              margin: 1rem 0rem;
-              border-radius: 10px;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-          <div class="section-sub">Center text</div>
-          <p class="section-body">
-            You can get the gray text using <span class="code">.center</span> .
-          </p>
-          <h2 class="type-2 center">Heading 2</h2>
-          <p class="type-3 center">Lorem Ipsum</p>
-
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=554&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522type-2%2520center%2522%253EHeading%25202%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522type-5%2520center%2522%253ELorem%2520Ipsum%253C%252Fp%253E%250A"
-            style="
-              width: 554px;
-              height: 112px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
@@ -151,11 +74,12 @@
             <li class="links"><a href="../input/input.html">Input</a></li>
             <li class="links"><a href="../list/list.html">List</a></li>
             <li class="links"><a href="../modal/modal.html">Modal</a></li>
-            <li class="links"><a href="../toast/toast.html">Toast</a></li>
-            <li class="links active"><a href="text.html">Typography</a></li>
+            <li class="links active"><a href="toast.html">Toast</a></li>
+            <li class="links"><a href="../text/text.html">Typography</a></li>
           </ul>
         </aside>
       </div>
     </main>
+    <script src="components/toast/toast.js"></script>
   </body>
 </html>

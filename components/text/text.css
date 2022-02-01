@@ -1,33 +1,33 @@
-@import url("../styles.css");
+@import url("../../styles.css");
 
 *{
   color: var(--primary-dark);
 }
-.h1 {
+.type-1 {
   
   font-size: 2.75rem;
   line-height: 4rem;
 }
 
-.h2 {
+.type-2 {
   
   font-size: 2rem;
   line-height: 2.5rem;
 }
 
-.h3{
+.type-3{
   
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-.h4{
+.type-4{
   
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
-.h5{
+.type-5{
   
   font-size: 0.5rem;
   line-height: 1rem;

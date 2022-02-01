@@ -1,0 +1,61 @@
+@import url("../../styles.css");
+
+.alert-container {
+  width: 20%;
+}
+
+.alert {
+  width: 20rem;
+  display: flex;
+  flex-direction: row;
+  font-family: "Lato", sans-serif;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+  margin: 1rem 0rem 1rem 0rem ;
+}
+
+.iframe-alert{
+  width: 37rem;
+  height: 55rem;
+  border: 0;
+}
+
+.alert-msg {
+  margin: 0rem 0.5rem;
+}
+.info {
+  color: var(--blue-200);
+}
+.info-alert {
+  background-color: var(--blue-50);
+  border-left: 0.5rem solid var(--blue-150);
+}
+
+.success {
+  color: var(--green-200);
+}
+.success-alert {
+  background-color: var(--green-50);
+  border-left: 0.5rem solid var(--green-150);
+}
+
+.danger {
+  color: var(--red-200);
+}
+.danger-alert {
+  background-color: var(--red-50);
+  border-left: 0.5rem solid var(--red-150);
+}
+
+.warning {
+  color: var(--yellow-200);
+}
+.warning-alert {
+  background-color: var(--yellow-50);
+  border-left: 0.5rem solid var(--yellow-150);
+}
+
+.close {
+  flex-basis: 10%;
+}

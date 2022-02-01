@@ -1,12 +1,16 @@
-/*Importing shared css files*/
+/*Importing shared CSS files*/
 @import url("./shared/index.css");
 @import url("./shared/reset.css");
+@import url("./shared/docs.css");
+
+
 
 /*Importing Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
 
 :root {
+  /*colors*/
   --primary-dark: #253951;
   --primary-light: #daeafa;
   --font: #f0f8ff;
@@ -37,14 +41,15 @@
   --yellow-150: #fed180;
   --yellow-200: #ca8501;
   --yellow-250: #f3aa16;
-  
-  --gray-50:#747474;
-  --gray-100: #808080;
-  --gray-200: #3a3a3a;
 
   --white: #ffffff;
   --black: #000000;
 
+  --gray-50: #747474;
+  --gray-100: #808080;
+  --gray-200: #3a3a3a;
+
+  /*font-weight*/
   --fw-400: 400;
   --fw-600: 600;
   --fw-500: 500;

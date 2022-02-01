@@ -1,0 +1,23 @@
+@import url("../../styles.css");
+
+.email-inp {
+  border-radius: 5px;
+  border: 1px solid var(--primary-dark);
+  font-size: 0.95rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+}
+
+.email-inp:focus {
+  border: 2px solid var(--primary-dark);
+}
+
+.error {
+  background-color: transparent;
+  margin: 0.3rem;
+  display: none;
+  font-size: 1rem;
+  color: var(--red-300);
+  font-style: italic;
+  font-weight: var(--fw-600);
+}

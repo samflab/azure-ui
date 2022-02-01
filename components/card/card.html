@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="card.css" />
+    <title>Card | Azure UI</title>
+  </head>
+  <body>
+    <!--COMMON HTML-->
+    <header class="header">
+      <h1 class="img-header">
+        <a href="../../index.html" class="logo"
+          ><img src="/svg/logo.svg" alt="Logo" class="img-logo"
+        /></a>
+      </h1>
+
+      <div class="header-nav">
+        <nav>
+          <ul>
+            <li class="docs">
+              <a class="link" href="../alert/alert.html">Docs</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!---->
+
+    <main>
+      <div class="doc-content">
+        <h1 class="doc">Card</h1>
+        <p class="doc-intro">
+          Cards contain content and actions about a single subject.
+        </p>
+      </div>
+      <div class="body">
+        <div class="doc-section">
+          <h1 class="section-heading">Usage</h1>
+          <div class="section-sub">Simple Text Card</div>
+          <p class="section-body">A text only card with two action button.</p>
+
+          <div class="img-container">
+            <div class="card-header">
+              <h3 class="card-title">Card Title</h3>
+            </div>
+            <div class="card-content">
+              <p class="card-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
+                ullam!
+              </p>
+              <button class="wishlist btn">Button 1</button>
+              <button class="buy btn">Button 2</button>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fh3%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-body%2522%253E%2520Lorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Porro%252C%2520ullam%21%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522wishlist%2520btn%2522%253EButton%25201%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522buy%2520btn%2522%253EButton%25202%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 569px;
+              height: 276px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+              margin: 1rem 0rem;
+              border-radius: 10px;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="section-sub">Card with Image</div>
+          <p class="section-body">
+            A card with image and text with two action buttons and a dismiss
+            button
+          </p>
+
+          <div class="img-container dismiss">
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+            <img
+              src="https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+              class="card-img"
+            />
+            <div class="card-header">
+              <h3 class="card-title">Scott International</h3>
+            </div>
+            <div class="card-content">
+              <p class="card-body">
+                Hiphop 2pac Graphic Printed Hoodies for Men Stylish Latest
+                Regular Fit
+              </p>
+              <span class="price">₹600</span>
+              <del class="original-price">₹2500</del>
+              <b class="discount">24% OFF</b>
+
+              <button class="wishlist btn">add to wishlist</button>
+              <button class="buy btn">buy now</button>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-container%2520dismiss%2522%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522close-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522..%2522%2520class%253D%2522card-img%2522%2520%252F%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253EScott%2520International%253C%252Fh3%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-body%2522%253EHiphop%25202pac%2520Graphic%2520Printed%2520Hoodies%2520for%2520Men%2520Stylish%2520Latest%2520Regular%2520Fit%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%25E2%2582%25B9600%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdel%2520class%253D%2522original-price%2522%253E%25E2%2582%25B92500%253C%252Fdel%253E%250A%2520%2520%2520%2520%253Cb%2520class%253D%2522discount%2522%253E24%2525%2520OFF%253C%252Fb%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522wishlist%2520btn%2522%253Eadd%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522buy%2520btn%2522%253Ebuy%2520now%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 569px;
+              height: 386px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+              margin: 1rem 0rem;
+              border-radius: 10px;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="section-sub">Horizontal Card</div>
+          <p class="section-body">A horizontal card with text and image</p>
+
+          <div class="card hrz">
+            <div class="img-container hrz">
+              <button class="close-btn hidden">
+                <i class="fas fa-times"></i>
+              </button>
+              <img
+                src="https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+                class="card-img img-hrz"
+              />
+              <div class="card-data">
+                <div class="card-header">
+                  <h3 class="card-title">Scott International</h3>
+                </div>
+                <div class="card-content">
+                  <p class="card-body">
+                    Hiphop 2pac Graphic Printed Hoodies for Men Stylish Latest
+                    Regular Fit
+                  </p>
+                  <span class="price">₹600</span>
+                  <del class="original-price">₹2500</del>
+                  <b class="discount">24% OFF</b>
+                  <div class="btn-container-hrz">
+                    <button class="wishlist btn btn-hrz">
+                      add to wishlist
+                    </button>
+                    <button class="buy btn btn-hrz">buy now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520hrz%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-container%2520hrz%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close-btn%2520hidden%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%2522%2520class%253D%2522card-img%2520img-hrz%2522%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-data%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253EScott%2520International%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-body%2522%253E%2520Hiphop%25202pac%2520Graphic%2520Printed%2520Hoodies%2520for%2520Men%2520Stylish%2520Latest%2520Regular%2520Fit%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%25E2%2582%25B9600%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdel%2520class%253D%2522original-price%2522%253E%25E2%2582%25B92500%253C%252Fdel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cb%2520class%253D%2522discount%2522%253E24%2525%2520OFF%253C%252Fb%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-container-hrz%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522wishlist%2520btn%2520btn-hrz%2522%253E%2520add%2520to%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520wishlist%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522buy%2520btn%2520btn-hrz%2522%253Ebuy%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+            style="
+              width: 569px;
+              height: 551px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+              margin: 1rem 0rem;
+              border-radius: 10px;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="section-sub">Card with Badge</div>
+          <p class="section-body">
+            This card comes with a badge that gives a short whether its a new
+            arrival or out of stock
+          </p>
+
+          <div class="img-container badge">
+            <button class="close-btn hidden">
+              <i class="fas fa-times"></i>
+            </button>
+            <img
+              src="https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+              class="card-img"
+            />
+            <div class="card-header">
+              <h3 class="card-title">Scott International</h3>
+            </div>
+            <div class="card-content">
+              <p class="card-body">
+                Hiphop 2pac Graphic Printed Hoodies for Men Stylish Latest
+                Regular Fit
+              </p>
+              <span class="price">₹600</span>
+              <del class="original-price">₹2500</del>
+              <b class="discount">24% OFF</b>
+
+              <button class="wishlist btn">add to wishlist</button>
+              <button class="buy btn">buy now</button>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-container%2520badge%2522%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522close-btn%2520hidden%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522...%2522%2520class%253D%2522card-img%2522%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2522%253EScott%2520International%253C%252Fh3%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-body%2522%253EHiphop%25202pac%2520Graphic%2520Printed%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Hoodies%2520for%2520Men%2520Stylish%2520Latest%2520Regular%2520Fit%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%25E2%2582%25B9600%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdel%2520class%253D%2522original-price%2522%253E%25E2%2582%25B92500%253C%252Fdel%253E%250A%2520%2520%2520%2520%2520%2520%253Cb%2520class%253D%2522discount%2522%253E24%2525%2520OFF%253C%252Fb%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522wishlist%2520btn%2522%253Eadd%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522buy%2520btn%2522%253Ebuy%2520now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 569px;
+              height: 422px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+              margin: 1rem 0rem;
+              border-radius: 10px;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <div class="section-sub">Card with Text Overlay</div>
+          <p class="section-body">Card with text overlay</p>
+
+          <div class="img-container img-overlay">
+            <button class="close-btn hidden">
+              <i class="fas fa-times"></i>
+            </button>
+            <img
+              src="https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+              class="card-img"
+            />
+            <div class="card-header overlay">
+              <h3 class="card-title txt-ovl">Scott International</h3>
+            </div>
+            <div class="card-content">
+              <p class="card-body hidden">
+                Hiphop 2pac Graphic Printed Hoodies for Men Stylish Latest
+                Regular Fit
+              </p>
+              <span class="price">₹600</span>
+              <del class="original-price">₹2500</del>
+              <b class="discount">24% OFF</b>
+
+              <button class="wishlist btn">add to wishlist</button>
+              <button class="buy btn">buy now</button>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=568.75&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-container%2520img-overlay%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522close-btn%2520hidden%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cimg%2520src%253D%2522...%2522class%253D%2522card-img%2522%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-header%2520overlay%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-title%2520txt-ovl%2522%253EScott%2520International%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522card-body%2520hidden%2522%253EHiphop%25202pac%2520Graphic%2520Printed%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Hoodies%2520for%2520Men%2520Stylish%2520Latest%2520Regular%2520Fit%250A%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%25E2%2582%25B9600%253C%252Fspan%253E%250A%2520%2520%2520%253Cdel%2520class%253D%2522original-price%2522%253E%25E2%2582%25B92500%253C%252Fdel%253E%250A%2520%2520%2520%253Cb%2520class%253D%2522discount%2522%253E24%2525%2520OFF%253C%252Fb%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522wishlist%2520btn%2522%253Eadd%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522buy%2520btn%2522%253Ebuy%2520now%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 569px;
+              height: 422px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+              margin: 1rem 0rem;
+              border-radius: 10px;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <aside class="doc-section">
+          <ul>
+            <li class="links"><a href="../alert/alert.html">Alert</a></li>
+            <li class="links"><a href="../avatar/avatar.html">Avatar</a></li>
+            <li class="links"><a href="../badge/badge.html">Badge</a></li>
+            <li class="links"><a href="../button/button.html">Button</a></li>
+            <li class="links active"><a href="card.html">Card</a></li>
+            <li class="links"><a href="../image/image.html">Image</a></li>
+            <li class="links"><a href="../input/input.html">Input</a></li>
+            <li class="links"><a href="../list/list.html">List</a></li>
+            <li class="links"><a href="../modal/modal.html">Modal</a></li>
+            <li class="links"><a href="../toast/toast.html">Toast</a></li>
+            <li class="links"><a href="../text/text.html">Typography</a></li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+    <script src="card.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+@import url("../../styles.css");
+
+.header-btn {
+  background-color: var(--primary-dark);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+  color: var(--font);
+  font-size: 0.9rem;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.header-modal {
+  border-radius: 5px;
+  box-shadow: #183040 1.95px 1.95px 2.6px;
+  margin: auto;
+  visibility: hidden;
+  width: 20rem;
+}
+
+.header-title {
+  font-size: 1.2rem;
+  font-weight: var(--fw-500);
+  padding: 1rem 1rem;
+}
+
+.header-subtitle {
+  font-size: 1rem;
+  padding: 0rem 1rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 1rem;
+  column-gap: 1rem;
+}
+
+.dialog-btn {
+  background-color: var(--primary-dark);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+  color: var(--font);
+  font-size: 0.9rem;
+  padding: 0.5rem 1.3rem;
+  cursor: pointer;
+}

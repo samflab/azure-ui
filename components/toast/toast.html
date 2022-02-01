@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="toast.css" />
+    <title>Toast | Azure UI</title>
+  </head>
+  <body>
+    <!--COMMON HTML-->
+    <header class="header">
+      <h1 class="img-header">
+        <a href="../../index.html" class="logo"
+          ><img src="/svg/logo.svg" alt="Logo" class="img-logo"
+        /></a>
+      </h1>
+
+      <div class="header-nav">
+        <nav>
+          <ul>
+            <li class="docs">
+              <a class="link" href="../alert/alert.html">Docs</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!---->
+
+    <main>
+      <div class="doc-content">
+        <h1 class="doc">Toast</h1>
+        <p class="doc-intro">
+          Toast are short messages that disappear on its own, describing an user
+          action.
+        </p>
+      </div>
+      <div class="body">
+        <div class="doc-section">
+          <h1 class="section-heading">Usage</h1>
+          <div class="section-sub">Baseline Toast Messages</div>
+          <p class="section-body">Click this button for a demo.</p>
+          <div><button class="baseline-btn">Baseline</button></div>
+          
+          <div class="baseline-toast">
+            <span class="toast-msg">Here's a toast message</span>
+            <button class="toast-btn">
+              <i class="fas fa-times-circle"></i>
+            </button>
+          </div>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=htmlmixed&width=554&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=131%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522baseline-btn%2522%253EBaseline%253C%252Fbutton%253E%250A%250A%253Cdiv%2520class%253D%2522baseline-toast%2522%253E%250A%253Cspan%2520class%253D%2522toast-msg%2522%253EHere%27s%2520a%2520toast%2520message%253C%252Fspan%253E%250A%253Cbutton%2520class%253D%2522toast-btn%2522%253E%250A%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A"
+            style="
+              width: 554px;
+              height: 204px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+              margin: 1rem 0rem;
+              border-radius: 10px;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+
+        <aside class="doc-section">
+          <ul>
+            <li class="links"><a href="../alert/alert.html">Alert</a></li>
+            <li class="links"><a href="../avatar/avatar.html">Avatar</a></li>
+            <li class="links"><a href="../badge/badge.html">Badge</a></li>
+            <li class="links"><a href="../button/button.html">Button</a></li>
+            <li class="links"><a href="../card/card.html">Card</a></li>
+            <li class="links"><a href="../image/image.html">Image</a></li>
+            <li class="links"><a href="../input/input.html">Input</a></li>
+            <li class="links"><a href="../list/list.html">List</a></li>
+            <li class="links"><a href="../modal/modal.html">Modal</a></li>
+            <li class="links active"><a href="toast.html">Toast</a></li>
+            <li class="links"><a href="../text/text.html">Typography</a></li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+    <script src="toast.js"></script>
+  </body>
+</html>

@@ -35,7 +35,7 @@
   border-left: 0.5rem solid var(--blue-150);
 }
 
-.success {
+.success-msg {
   color: var(--green-200);
 }
 .success-alert {
@@ -51,7 +51,7 @@
   border-left: 0.5rem solid var(--red-150);
 }
 
-.warning {
+.warning-msg {
   color: var(--yellow-200);
 }
 .warning-alert {

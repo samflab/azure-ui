@@ -58,10 +58,12 @@
 .fa-check-circle,
 .fa-bell {
   margin-right: 0.5rem;
+  color: var(--font);
 }
 
 .fa-exclamation-circle {
   margin-left: 0.5rem;
+  color: var(--font);
 }
 
 .box-sh {
@@ -218,4 +220,8 @@
 
 .fa-fl {
   color: var(--blue-250);
+}
+
+.fl-hvr:hover{
+  color: var(--font);
 }

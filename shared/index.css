@@ -180,3 +180,45 @@ a {
     margin-bottom: 0.5rem;
   }
 }
+
+.footer {
+  background-color: var(--offwhite);
+  padding: 2rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-header {
+  font-size: 1.75rem;
+  color: var(--gray-0);
+  margin: 0 0 1.25rem 0;
+  font-weight: var(--fw-800);
+  text-transform: uppercase;
+}
+
+.footer-sub {
+  font-size: 1rem;
+  color: var(--gray-0);
+  font-weight: 500;
+}
+.footer-hr {
+  border: 0;
+  border-top: 1px solid #dadada;
+  margin-bottom: 1.25rem;
+  width: 8.625rem;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.fa-code {
+  color: var(--gray-0);
+}
+
+.social-links{
+  margin-left: auto;
+  margin-right: 2rem;
+}
+.fa-github, .fa-linkedin, .fa-globe, .fa-twitter{
+  margin-left: 1rem;
+  color: var(--gray-0);
+}

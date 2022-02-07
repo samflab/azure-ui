@@ -1,0 +1,36 @@
+@import url("../../styles.css");
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-content {
+  height: 15rem;
+  width: 15rem;
+  background-color: var(--primary-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 650px) {
+  .grid {
+    display: block;
+  }
+
+  .grid-content {
+    margin-top: 1rem;
+  }
+}

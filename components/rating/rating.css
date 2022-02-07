@@ -1,0 +1,14 @@
+@import url("../../styles.css");
+
+.fa-star{
+    color: var(--secondary);
+}
+
+.rating-compact{
+    background-color: var(--primary-dark);
+    color: var(--font);
+    width: 4.5rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    text-align: center;
+}

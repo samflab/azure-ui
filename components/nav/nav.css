@@ -1,0 +1,78 @@
+@import url("../../styles.css");
+
+.header-container{
+    width: 70%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  background-color: var(--font);
+}
+
+.header-logo {
+  border-right: 3px solid var(--primary);
+  border-left: 3px solid var(--primary);
+  margin-left: 1.5rem;
+}
+
+.header-img {
+  margin: 0.39rem 0rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-menu {
+  border-left: 3px solid var(--primary);
+  border-right: 3px solid var(--primary);
+  padding: 1.4rem;
+}
+.menu-item {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin: 0rem 0.7rem;
+  color: var(--primary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.header-icons {
+  border-left: 3px solid var(--primary);
+  padding: 1.43rem;
+  color: var(--primary);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.nav-iframe{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 750px) {
+  .header-nav,
+  .header-icons {
+    display: none;
+
+  }
+
+  .hamburger {
+    display: block;
+    color: var(--primary);
+  }
+}

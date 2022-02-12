@@ -1,7 +1,9 @@
 @import url("../../styles.css");
 
-.header-container{
-    width: 70%;
+
+
+.header-container {
+  width: 70%;
 }
 .header {
   display: flex;
@@ -59,16 +61,17 @@ a {
   cursor: pointer;
 }
 
-.nav-iframe{
-    width: 100%;
-    margin-top: 2rem;
+.nav-iframe {
+  width: 100%;
+  margin-top: 2rem;
 }
+
+
 
 @media screen and (max-width: 750px) {
   .header-nav,
   .header-icons {
     display: none;
-
   }
 
   .hamburger {

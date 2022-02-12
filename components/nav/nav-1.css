@@ -1,0 +1,75 @@
+@import url("../../styles.css");
+.header-3pt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  background-color: var(--primary-dark);
+
+}
+
+.header-logo-3pt {
+  margin-left: 1.5rem;
+}
+
+.header-img-3pt {
+  margin: 0.39rem 0rem;
+  height: 3rem;
+  width: 3rem;
+  filter: invert(100%);
+}
+
+.header-nav-3pt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-menu-3pt {
+  padding: 1.4rem;
+}
+.menu-item-3pt {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin: 0rem 0.7rem;
+  color: var(--font);
+
+}
+
+a {
+  text-decoration: none;
+  color: var(--font);
+  font-family: "Roboto", sans-serif;
+
+}
+
+.header-icons-3pt {
+  padding: 1.43rem;
+  color: var(--font);
+}
+
+i {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.hamburger-3pt {
+  display: none;
+}
+
+.icon-link-3pt{
+  color: var(--font);
+}
+
+@media screen and (max-width: 750px){
+  .header-nav-3pt, .header-icons-3pt{
+    display: none;
+  }
+
+  .hamburger-3pt{
+    display: inline-flex;
+    color: var(--font);
+  }
+}

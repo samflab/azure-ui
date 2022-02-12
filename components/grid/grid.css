@@ -25,6 +25,60 @@
   border-radius: 5px;
 }
 
+.grid-1 {
+  grid-area: romance;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.grid-2 {
+  grid-area: fantasy;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-area: adventure;
+}
+
+.grid-4 {
+  grid-area: horror;
+}
+
+.grid-5 {
+  grid-area: life;
+}
+
+.grid-6 {
+  grid-area: thriller;
+}
+
+.grid {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  transform: ease-in 0.2s;
+}
+
+
+.masonary {
+  padding: 1.5rem;
+  padding-bottom: 5rem;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  height: 50vh;
+  width: 100%;
+  grid-template-areas:
+    "romance fantasy horror life"
+    "romance fantasy horror life"
+    "romance adventure horror thriller"
+    "romance adventure horror thriller";
+  height: auto;
+}
+
 @media screen and (max-width: 650px) {
   .grid {
     display: block;

@@ -22,12 +22,15 @@ To get the styles of the components and the JavaScript functionality, add the fo
 3. [Badge](#badge)
 4. [Button](#button)
 5. [Card](#card)
-6. [Images](#image)
-7. [Input](#input)
-8. [Lists](#list)
-9. [Modal](#modal)
-10. [Toast](#toast)
-11. [Typography](#typography)
+6. [Grid](#grid)
+7. [Image](#image)
+8. [Input](#input)
+9. [List](#list)
+10. [Navigation](#navigation)
+11. [Rating](#rating)
+12. [Modal](#modal)
+13. [Toast](#toast)
+14. [Typography](#typography)
 
 ## Alert
 Alerts are those small pop up messages that come up on the screen that gives a brief about the action performed by the user.
@@ -79,6 +82,13 @@ You can find different cards [here](https://azure-ui.netlify.app/components/card
 - Card with Badge
 - Card with text overlay
 
+## Grid
+[Grids](https://azure-ui.netlify.app/components/grid/grid.html) come in handy when you have multiple items that you want to display side by side or when you want to display couple of items in a particular layout.
+It comes in the following variety:
+ - Two Column Grid
+ - Three Column Grid
+ - Masonry Grid of 4 columns
+
 ## Image
 These are not much, just easy to use responsive [images](https://azure-ui.netlify.app/components/image/image.html)
 Types:
@@ -87,15 +97,28 @@ Types:
 
 
 ## Input
-Input fields such as email or password that is used to collect information from the users.
+[Input](https://azure-ui.netlify.app/components/input/input.html) fields such as email or password that is used to collect information from the users.
 Type:
 - Email
 
 ## List
-well, lists are just simple lists or stacked lists.
+well, [lists](https://azure-ui.netlify.app/components/list/list.html) are just simple lists or stacked lists.
 Types:
 - Spaced List
 - Stacked List
+
+## Navigation
+Navigations are used to navigate from one page to another. Its a very important part of a web app, usually present on the top of the page.
+Navigation comes in the following [types](https://azure-ui.netlify.app/components/nav/doc-nav.html):
+- Reponsive navbar
+- Dark mode Navbar
+- Navbar with submenus
+
+## Rating
+[Ratings](https://azure-ui.netlify.app/components/rating/rating.html) are used to give feedback for products or services
+Different types:
+- Simple Rating
+- Compact Rating
 
 ## Modal 
 Modals are those pop-up boxes that appear on the screen when an user takes any action.

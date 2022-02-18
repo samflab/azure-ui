@@ -1,7 +1,5 @@
 @import url("../../styles.css");
 
-
-
 .header-container {
   width: 70%;
 }
@@ -35,7 +33,6 @@
 .header-menu {
   border-left: 3px solid var(--primary);
   border-right: 3px solid var(--primary);
-  padding: 1.4rem;
 }
 .menu-item {
   display: inline-block;
@@ -43,9 +40,16 @@
   font-size: 1rem;
   margin: 0rem 0.7rem;
   color: var(--primary);
+  padding: 1.35rem;
 }
 
-a {
+.menu-item:hover {
+  background-color: var(--primary-dark);
+  color: var(--font);
+  cursor: pointer;
+}
+
+.menu-item-link {
   text-decoration: none;
   color: var(--primary);
 }
@@ -65,8 +69,6 @@ a {
   width: 100%;
   margin-top: 2rem;
 }
-
-
 
 @media screen and (max-width: 750px) {
   .header-nav,

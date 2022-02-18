@@ -1,0 +1,29 @@
+@import url("../../styles.css");
+
+.header-nav{
+    position: relative;
+}
+
+.product-menu-item:hover .sub-menu{
+    display: flex;
+}
+
+.sub-menu{
+    position:absolute;
+    display: none;
+    flex-direction: column;
+    transform: translate(-1.5rem, 1.4rem);
+    width: 8.5rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: var(--primary-dark);
+    
+}
+
+.submenu-item{
+    display: inline-block;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    color: var(--font);
+
+}

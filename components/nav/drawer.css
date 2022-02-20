@@ -1,0 +1,25 @@
+@import url("../../styles.css");
+
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: var(--primary-light);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.menu-drawer {
+  display: flex;
+  flex-direction: column;
+}
+
+.close-btn {
+  font-size: 25px;
+  margin-left: auto;
+  list-style: none;
+  padding: 1rem;
+}

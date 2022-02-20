@@ -13,7 +13,6 @@ user's need.
 To get the styles of the components and the JavaScript functionality, add the following line of code in the head tag of your HTML document.
 ```html
 <link rel="stylesheet" href="https://azure-ui.netlify.app/main.css">
-<script src="https://azure-ui.netlify.app/app.js" defer> </script>
 ```
 
 ### What are the components provided by Azure UI?
